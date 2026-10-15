@@ -1,0 +1,15 @@
+# Study data and generated products
+processed/
+training_patches/
+model/
+scene_eval_RF_clean/
+ERA5/
+IBCAO/
+input_geotiff/
+figures_output/
+
+# Local/temporary files
+*.fig
+*.zip
+.DS_Store
+Thumbs.db
