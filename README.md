@@ -1,6 +1,6 @@
 # ESSiP analysis code v1.0.0
 
-MATLAB R2022b code supporting the manuscript **“A Recurrent Shelf-Interior Polynya Associated With a Grounded Ice Ridge on the East Siberian Arctic Shelf in Winter 2025–2026: Dynamics, Ice Production and Salt Rejection.”**
+MATLAB R2022b code supporting the manuscript **“A Shelf-Interior Polynya Bounded by a Grounded Ice Ridge in the East Siberian Sea: Dynamics, Ice Production and Salt Rejection.”**
 
 This repository contains the analysis and figure-generation code. Study data are kept separately.
 
@@ -65,8 +65,7 @@ See `PREPROCESSING.md` for the Sentinel-1 processing chain and required ERA5 var
 
 The RF model is intentionally not distributed because script 02 regenerates it from the labelled training data. The large processed Sentinel-1 MAT files are also not treated as archive inputs because they are generated from the source Sentinel-1 products by the supplied SNAP and MATLAB preprocessing chain.
 
-During code preparation, the following manuscript values were reproduced locally: the 50% rough-ice consensus area (123.02 km²), the RF validation metrics at P = 0.60 (accuracy 0.83451, precision 0.92583, recall 0.74008, F1 0.82260), and the heat-budget results (47.03 × 10^6 m³ reference potential ice production and 0.90 Mt reference potential salt rejection). Script 03 was also rerun successfully on new outputs. Before the public repository is frozen, scripts 06–10 should receive one final local smoke test with the complete working dataset.
 
 ## License
 
-See `LICENSE`. Before public release, replace the provisional copyright holder text with the final agreed author/copyright-holder name(s).
+See `LICENSE`. copyright (c) 2026 Xin Geng.
