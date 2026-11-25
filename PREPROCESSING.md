@@ -32,8 +32,7 @@ The principal MAT variables are `HH_corr_dB`, `HV_corr_dB`, `xq`, `yq`, `xv`, an
 
 `01_derive_rough_ice_footprint.m` uses `statistics_sample_stride = 4` when estimating each scene's robust median/MAD normalization parameters. The persistence fields themselves are evaluated on the full valid image grid.
 
-The exact SNAP software version used at the time of the original processing was not retained, but the operator chain and analysis-relevant settings are preserved in the supplied graph.
-
+ SNAP software version : ESA SNAP v13.0.0 
 ## ERA5
 
 Scripts 05 and 08 use hourly ERA5 data covering 1 November 2025 through 30 April 2026 over the study region. The required instantaneous fields are `u10`, `v10`, `t2m`, `d2m`, `sp`, `msl`, and `siconc`. The project also uses the mean/accumulation-style fields `avg_sdlwrf`, `avg_sdswrf`, `avg_ishf`, `avg_slhtf`, `avg_snlwrf`, and `avg_snswrf`.
