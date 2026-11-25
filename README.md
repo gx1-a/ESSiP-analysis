@@ -23,8 +23,9 @@ Place the companion study files in the following locations. The existing MAT fil
 ```text
 processed/
     Sentinel1_acquisition_times_20251122_20260430.csv
+    Sentinel1_multiyear_acquisitions_FigureS3.csv
     ridge/
-        iceberg_mask_for3D.mat          # historical SAR background used by Figure 1(b)
+        Figure1_SAR_Background.mat          # historical SAR background used by Figure 1(b)
 
 training_patches/
     Cropped_YYYYMMDD_patches.mat        # 10 files; must contain patch_HH
